@@ -3,11 +3,15 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
-from encoders import *
-from sklearn.models import LinearRegression
-from utils import compute_rmse
-from data import *
+
+from sklearn.linear_model import LinearRegression
+
+from TaxiFareModel.utils import compute_rmse
+from TaxiFareModel.data import *
 from sklearn.model_selection import train_test_split
+from TaxiFareModel.encoders import *
+
+
 
 class Trainer():
     def __init__(self, X, y):
@@ -42,6 +46,8 @@ class Trainer():
 
     def run(self):
         """set and train the pipeline"""
+        self.set_pipeline()
+
         self.pipe.fit(self.X, self.y)
 
 
