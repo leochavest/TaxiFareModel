@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lchaves/code/leochavest/TaxiFareModel/mlruns/1/d81186a8fc404e8686b80e10c8fc294f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: d81186a8fc404e8686b80e10c8fc294f
+run_uuid: d81186a8fc404e8686b80e10c8fc294f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1648160069350
+status: 1
+tags: []
+user_id: unknown
